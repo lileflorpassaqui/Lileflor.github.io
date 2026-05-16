@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f0eb;
+  color: #2c2c2c;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #a08c7a;
+  margin-bottom: 1.2rem;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.8rem, 8vw, 5.5rem);
+  font-weight: 300;
+  line-height: 1.15;
+  color: #2c2c2c;
+}
+
+h1 em {
+  font-style: italic;
+  color: #7a5c4a;
+}
+
+.line {
+  width: 60px;
+  height: 1px;
+  background-color: #a08c7a;
+  margin: 2rem auto 0;
+}
